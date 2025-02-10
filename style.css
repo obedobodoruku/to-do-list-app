@@ -149,6 +149,10 @@ button:hover {
         width: 100px;
     }
 
+    li {
+         font-size: 0.7rem;
+    }
+    
 <<<<<<< HEAD
     li > label {
    font-size: 0.7rem;
