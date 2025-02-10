@@ -149,7 +149,7 @@ button:hover {
         width: 100px;
     }
 
-    li {
+    li > p, li > span {
          font-size: 0.7rem;
     }
     
