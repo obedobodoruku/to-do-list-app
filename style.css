@@ -149,6 +149,6 @@ button:hover {
     }
 
     li > label > input {
-        font-size: 0.7rem
+        font-size: 0.7rem;
 }
 }
