@@ -136,9 +136,10 @@ button:hover {
 
 
 @media screen and (max-width: 480px){
-    .button-div {
-        flex-direction: column;
-
+    .button-div > button {
+        width: 100px;
+        font-size: 1rem;
+        padding: 5px;
     }
 
     .button-div > button:nth-child(2) {
