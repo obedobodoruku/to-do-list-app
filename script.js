@@ -20,7 +20,7 @@ const taskListDisplay = () => {
         const li = document.createElement("li");
 
 
-        li.innerHTML = `
+        li.innerHTML = ` 
         <label>
           <input type="checkbox">
           <span>${oneTask}</span>
@@ -65,16 +65,10 @@ addTaskBtn.addEventListener("click", taskListDisplay);
 
 taskList.addEventListener("dblclick", () => {
     taskPage.classList.remove('task');
-    addTaskBtn.textContent = "Update task";
     taskList.classList.add('hidden');
 
-    if (li.innerHTML !== "") {
-    taskInput.innerText = oneTask;
-    taskDescription.innerText = `${twoTask}`;
-    taskDate.innerText = `${dateTask}`;
-    }
-
     taskInput.addEventListener("keypress", (e) => {
+
      if (e.key === 'Enter') {
         addTaskBtn.click();
      }
@@ -99,5 +93,3 @@ cancel.addEventListener("click", () => {
     taskList.classList.remove('hidden');
 
 });
-
-

@@ -86,7 +86,7 @@ li {
 }
 
 li > label {
-    font-size: 1.25rem;
+    font-size: 1rem;
    
 }
 
@@ -101,6 +101,7 @@ li > p {
 
 li > label > button {
     width: 100px;
+    padding: 5px;
     margin-left: 50px;
 }
 
@@ -148,7 +149,18 @@ button:hover {
         width: 100px;
     }
 
+<<<<<<< HEAD
+    li > label {
+   font-size: 0.7rem;
+    }
+
+    li > label > button {
+        font-size: 0.7rem;
+        padding: 5px;
+    }
+=======
     li > label > input {
         font-size: 0.7rem;
 }
+>>>>>>> 1538e7fa3fd0c154d69087f647d6f8d40c730fa1
 }
