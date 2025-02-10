@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To do list App</title>
+</head>
+<body id="myBody">
+    <div class="header">
+     <header id="myHeader">TO DO LIST APP</header>
+     </div>
+    <div class="container">
+     <div class="task" id="taskPage">
+     <form type="submit">
+        <div class="inputs">
+        <input id="taskInput" type="text" placeholder="Task" required>
+        <input id="description" type="text" placeholder="description">
+        <input id="taskDate" type="date">
+        </div>
+        <div class="form-button">
+        <button id="addBtn" type="submit">Add Task</button>
+        <button id="cancelBtn">Cancel</button>
+        </div>
+     </form>
+</div>
+
+<div id="taskList" class="hidden">
+    
+</div>
+
+<div id="completedTask" class="complete">
+    
+</div>
+
+
+     <div class="button-div">
+        <button id="myButton">Add New Task</button>
+        <button id="clearBtn">Clear all</button>
+     </div>
+     
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
