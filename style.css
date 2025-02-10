@@ -80,7 +80,7 @@ form {
 }
 
 li {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
 }
@@ -147,4 +147,8 @@ button:hover {
    .form-button > button {
         width: 100px;
     }
+
+    li > label > input {
+        font-size: 0.7rem
+}
 }
