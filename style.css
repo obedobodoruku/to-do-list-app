@@ -19,14 +19,16 @@
 }
 
 .container {
-    height: 100vh;
+    
     margin-top: 50px;
+    padding: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border: 4px solid black;
     border-radius: 15px;
+    overflow-y: scroll;
 }
 
 .task {
@@ -76,13 +78,13 @@ form {
 
 .hidden {
     display: none;
-    
 }
 
 li {
+   
     font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 li > label {
@@ -99,10 +101,10 @@ li > p {
     color: rgb(106, 106, 106);
 }
 
-li > label > button {
+li > button {
     width: 100px;
     padding: 5px;
-    margin-left: 50px;
+    margin-top: 0;
 }
 
 
@@ -136,10 +138,15 @@ button:hover {
 
 
 @media screen and (max-width: 480px){
+
+.button-div {
+   flex-direction: column;
+}
+
     .button-div > button {
-        width: 100px;
-        font-size: 1rem;
-        padding: 5px;
+     font-size: 0.7rem;
+     padding: 7px;
+     width: 100px;
     }
 
     .button-div > button:nth-child(2) {
@@ -150,22 +157,22 @@ button:hover {
         width: 100px;
     }
 
-    li > p, li > span {
-         font-size: 0.7rem;
+   .hidden {
+        margin-;
     }
-    
-<<<<<<< HEAD
+
     li > label {
    font-size: 0.7rem;
     }
 
-    li > label > button {
+    li > button {
         font-size: 0.7rem;
         padding: 5px;
     }
-=======
-    li > label > input {
-        font-size: 0.7rem;
+
+li > p {
+    margin-top: 0;
+    font-size: 0.7rem;
 }
->>>>>>> 1538e7fa3fd0c154d69087f647d6f8d40c730fa1
+
 }

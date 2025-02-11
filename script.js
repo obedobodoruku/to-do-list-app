@@ -24,10 +24,10 @@ const taskListDisplay = () => {
         <label>
           <input type="checkbox">
           <span>${oneTask}</span>
-          <button class="delete-btn">Delete</button>
+           <p>${twoTask}</p>
+           <p>${dateTask}</p>
         </label>
-        <p>${twoTask}</p>
-        <p>${dateTask}</p>
+        <button class="delete-btn">Delete</button>
         <hr>
         `;
         
